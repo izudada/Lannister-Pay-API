@@ -9,4 +9,4 @@ const paymentRoutes = require('./routes/payments')
 app.use('/split-payments', paymentRoutes)
 
 
-app.listen(3000, () => console.log('Server has started'))
+app.listen(5000, () => console.log('Server has started'))
