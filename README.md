@@ -49,6 +49,7 @@ $ npm run devStart
 ## Useful resources
 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=fgTGADljAeg) - A beginner guide on creating an API using Node Js
+- [DEBUG PORT on Heroku](https://stackoverflow.com/questions/15693192/heroku-node-js-error-web-process-failed-to-bind-to-port-within-60-seconds-of) - How to get heroku port instance
 
 
 ## Author
