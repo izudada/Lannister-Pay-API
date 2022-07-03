@@ -7,4 +7,9 @@ app.use(express.json())
 const paymentRoutes = require('./routes/payments')
 app.use('/split-payments', paymentRoutes)
 
-app.listen(3000, () => console.log('Server has started'))
+
+//  For development server or localhost
+// app.listen(3000, () => console.log('Server has started'))
+
+//  For production or deployment server
+app.listen()
