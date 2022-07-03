@@ -8,10 +8,17 @@ const paymentRoutes = require('./routes/payments')
 
 var cors = require('cors')
 
-app.use('/split-payments', paymentRoutes,  cors({
-    credentials: true,
-    origin: true
-}))
+// app.use('/split-payments', paymentRoutes,  cors({
+//     credentials: true,
+//     origin: true
+// }))
+
+app.use(
+    cors({
+        credentials: true,
+        origin: true
+    })
+);
 
 app.options('*', cors())
 
