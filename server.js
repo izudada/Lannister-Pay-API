@@ -6,11 +6,7 @@ app.use(express.json())
 //  Create and use routes
 const paymentRoutes = require('./routes/payments')
 
-var cors = require('cors')
-
-app.use('/split-payments', paymentRoutes,  cors())
-
-app.options('*', cors())
+app.use('/split-payments', paymentRoutes)
 
 
 app.listen(3000, () => console.log('Server has started'))
